@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body>
+	<script>
+var m=parseInt(prompt("enter the number for armstrong:"));
+			 var p=m;
+			 var s=m;
+			 var arm=0;
+			 
+			 for(i=1; i<m; i++)
+			 {
+				 m=parseInt(m/10);
+				
+				
+			 }
+			   console.log(i);
+			 while(s>0)
+			 {
+				 var reminder=s%10;
+				 arm=arm+(reminder**i);
+				 s=parseInt(s/10);
+			 }
+			
+			  if(arm==p)
+			  {
+				   console.log("It's Amrstrong");
+			  }
+			  else 
+			  {
+				   console.log("It's not amstrong");
+			  }
+			 </script>
+			</body>
+</html>
+	
